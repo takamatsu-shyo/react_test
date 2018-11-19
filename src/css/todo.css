@@ -1,0 +1,16 @@
+.undone{
+	width: 600px;
+	background-color: rgb(10,10,10);
+	color: rgb(128,128,128);
+	margin: 10px auto;
+	padding: 20px;
+}
+
+.done {
+	width: 600px;
+	background-color: rgb(5,5,5);
+	color: rgb(64,64,64);
+	margin: 10px auto;
+	padding: 20px;
+
+}

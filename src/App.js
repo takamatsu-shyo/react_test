@@ -46,6 +46,14 @@ class App extends Component {
 			e.target.desc.value = '';
 	}
 
+	setTodoStatus(clickTodo) {
+		const todos = this.state.todos.slice();
+		const todo = todos[clickTodo.id - 1];
+		todo.done = !todo.done;
+		todo[clickTodo.id - 1] = todo;
+
+		this.setState({ todos });
+	}
 
 
   render() {
@@ -53,7 +61,10 @@ class App extends Component {
       <div className="app">
 	  	<h1> TODO... </h1>
 		<Form handleSubmit = {this.handleSubmit.bind(this)} />
-		<TodoList todos = {this.state.todos} />
+		<TodoList 
+			todos = {this.state.todos} 
+			setTodoStatus = {this.setTodoStatus.bind(this)}
+		/>
      </div>
     );
   }

@@ -1,6 +1,6 @@
 .undone{
 	width: 600px;
-	background-color: rgb(10,10,10);
+	background-color: rgb(24,24,24);
 	color: rgb(128,128,128);
 	margin: 10px auto;
 	padding: 20px;
@@ -8,8 +8,8 @@
 
 .done {
 	width: 600px;
-	background-color: rgb(5,5,5);
-	color: rgb(64,64,64);
+	background-color: rgb(8,8,8);
+	color: rgb(32,32,32);
 	margin: 10px auto;
 	padding: 20px;
 

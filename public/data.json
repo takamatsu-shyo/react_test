@@ -1,0 +1,24 @@
+[
+	{
+	"title": "Hello, React!",
+    "desc": "React is started."
+	  },
+	    {
+    "title": "Hello, Redux!",
+    "desc": "Redux is also started."
+	  },
+	    {
+    "title": "Hello, Node.js!",
+    "desc": "Node.js server is started, too."
+	  },
+	    {
+    "title": "Hello, JavaScript",
+    "desc": "Powered by JavaScript"
+	  },
+	    {
+    "title": "What's more?",
+    "desc": "Running here?"
+	  }
+
+]
+
